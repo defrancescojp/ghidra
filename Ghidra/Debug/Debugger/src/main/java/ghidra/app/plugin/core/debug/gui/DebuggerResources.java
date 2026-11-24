@@ -708,6 +708,7 @@ public interface DebuggerResources {
 		String NAME_PC_BY_REGISTER = "Track Program Counter (by Register)";
 		String NAME_PC_BY_STACK = "Track Program Counter (by Stack)";
 		String NAME_SP = "Track Stack Pointer";
+		String NAME_SP_BY_STACK = "Track Stack Pointer (by Stack)";
 		String NAME_NONE = "Do Not Track";
 		String NAME_PREFIX_WATCH = "Track address of watch: ";
 
@@ -716,6 +717,7 @@ public interface DebuggerResources {
 		Icon ICON_PC_BY_REGISTER = ICON_REGISTER_MARKER;
 		Icon ICON_PC_BY_STACK = ICON_REGISTER_MARKER;
 		Icon ICON_SP = ICON_REGISTER_MARKER;
+		Icon ICON_SP_BY_STACK = ICON_REGISTER_MARKER;
 		// TODO: Consider sync_disabled icon
 		Icon ICON_NONE = ICON_DELETE;
 

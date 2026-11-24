@@ -33,7 +33,8 @@ public class BasicLocationTrackingSpecFactory implements LocationTrackingSpecFac
 		PCLocationTrackingSpec.INSTANCE,
 		PCByRegisterLocationTrackingSpec.INSTANCE,
 		PCByStackLocationTrackingSpec.INSTANCE,
-		SPLocationTrackingSpec.INSTANCE);
+		SPLocationTrackingSpec.INSTANCE,
+		SPByStackLocationTrackingSpec.INSTANCE);
 
 	public static final Map<String, LocationTrackingSpec> BY_CONFIG_NAME = ALL.stream()
 			.collect(Collectors.toUnmodifiableMap(
